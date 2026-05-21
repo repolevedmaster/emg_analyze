@@ -1,0 +1,23 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# PyTorch & ML Models
+*.pth
+*.pt
+*.onnx
+
+# Large Data Files (GitHub의 100MB 제한 방지)
+data.pickle
+*.pickle
+*.pkl
+*.zip
+*.tar.gz
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
